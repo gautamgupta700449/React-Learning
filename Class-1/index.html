@@ -6,9 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+</style>
 
 <body>
+    <h1>This is my first object program</h1>
+    <label for="name">Name:</label>
+    <span id="name"></span>
+    <br>
+    <label for="email">Email:</label>
+    <span id="email"></span>
+    <br>
+    <label for="number">Number:</label>
+    <span id="number"></span>
+    <p id="person">Hobies:</p>
+    <button onclick="myFunction()"
+        style="margin: 35px 30px 34px 42px; color: green; background-color: black; padding: 12px;">click
+        me</button>
+    <p id="demo"></p>
+
+    <input type="button" onclick="disp_prompt()" value="Display a prompt box" />
 
 </body>
+<!-- <script defer src="./obj.js"></script> -->
+<!-- <script src="./scoping.js"></script> -->
+<script src="./fun.js"></script>
 
 </html>
